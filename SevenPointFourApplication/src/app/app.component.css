@@ -1,0 +1,14 @@
+table{
+	color: green;
+	align-self: center;
+	border: 1px solid blue;
+	background-color: aqua;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 14px;
+}
+
+th{
+	background-color:black; 
+	color:white;
+}

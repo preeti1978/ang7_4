@@ -1,0 +1,22 @@
+<h1>
+  {{title}}
+</h1>
+<h2>
+{{subtitle}}
+</h2>
+<table border=1>
+<tr>
+
+<th>User name</th>
+<th>Role</th>
+</tr>
+<tr *ngFor ="let user of matchingUsers">
+    <td>{{user.name}}</td><td><button (click)="fetchUsersMatchingRole(user.role)">{{user.role}}</button></td>
+</tr>
+
+<!--<ul>
+<li *ngFor ="let user of matchingUsers">
+{{user.name}}**{{user.role}}**<button (click)="fetchUsersMatchingRole(user.role)">{{user.role}}</button>
+</li>
+</ul>-->
+</table>
